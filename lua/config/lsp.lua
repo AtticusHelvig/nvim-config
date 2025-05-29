@@ -1,4 +1,6 @@
 vim.lsp.enable("lua-language-server")
+vim.lsp.enable("pyright")
+vim.lsp.enable("omnisharp")
 
 -- Custom keybinds
 vim.api.nvim_create_autocmd('LspAttach', {

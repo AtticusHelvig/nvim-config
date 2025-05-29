@@ -1,4 +1,5 @@
 return {
-	cmd = "pyright",
-	filetypes = "py"
+	cmd = { "pyright-langserver", "--stdio" },
+	filetypes = { "python" },
+	single_file_support = true
 }
