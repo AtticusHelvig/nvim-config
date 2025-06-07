@@ -3,6 +3,7 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
 -- Line numbers
+vim.o.number = true
 vim.o.relativenumber = true
 
 -- Clipboard
