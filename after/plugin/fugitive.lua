@@ -1,1 +1,1 @@
-vim.keymap.set("n", "<leader>gs", vim.cmd.Git, { desc = "Open git [S]tatus" })
+vim.keymap.set("n", "<leader>gs", vim.cmd.Git, { desc = "Open [G]it [S]tatus" })
