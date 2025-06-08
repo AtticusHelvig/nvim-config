@@ -24,10 +24,6 @@ vim.o.smartcase = true
 -- Sign column
 vim.o.signcolumn = 'yes'
 
--- Whitespace
-vim.o.list = true
-vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
-
 -- Show which line your cursor is on
 vim.o.cursorline = true
 
