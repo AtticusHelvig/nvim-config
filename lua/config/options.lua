@@ -2,6 +2,9 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
+-- Nerd font
+vim.g.have_nerd_font = true
+
 -- Line numbers
 vim.o.number = true
 vim.o.relativenumber = true
@@ -18,8 +21,18 @@ vim.o.breakindent = true
 vim.o.ignorecase = true
 vim.o.smartcase = true
 
+-- Sign column
+vim.o.signcolumn = 'yes'
+
+-- Whitespace
+vim.o.list = true
+vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
+
 -- Show which line your cursor is on
 vim.o.cursorline = true
+
+-- Minimal number of screen lines to keep above and below the cursor.
+vim.o.scrolloff = 10
 
 -- Save warnings
 vim.o.confirm = true
