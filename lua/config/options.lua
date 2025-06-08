@@ -24,6 +24,9 @@ vim.o.smartcase = true
 -- Sign column
 vim.o.signcolumn = 'yes'
 
+-- Reduce update time
+vim.o.updatetime = 250
+
 -- Show which line your cursor is on
 vim.o.cursorline = true
 
