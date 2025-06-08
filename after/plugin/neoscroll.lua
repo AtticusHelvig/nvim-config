@@ -1,5 +1,6 @@
 neoscroll = require('neoscroll')
 neoscroll.setup({
+	mappings = {},
 	easing = "linear"
 })
 
