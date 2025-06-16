@@ -1,11 +1,13 @@
 return {
-	-- add gruvbox
 	{
 		"ellisonleao/gruvbox.nvim",
 		lazy = false,
 		priority = 1000,
-		config = function()
-			vim.cmd([[colorscheme gruvbox]])
-		end,
+	},
+	{
+		"dracula/vim",
+		name = "dracula",
+		lazy = false,
+		priority = 1000,
 	}
 }
